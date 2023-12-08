@@ -16,7 +16,7 @@ void wireless() {
     sleep(2);
     
     char iport[150];
-    printf("%sEnter %sPairing%s IP and Port like this example (127.0.0.1:5555): %s", YELLOW, RED, YELLOW, NC);
+    printf("%sEnter %sPairing%s IP like this example (127.0.0.1): %s", YELLOW, RED, YELLOW, NC);
     scanf("%149s", iport);
     char code[150];
     printf("%sEnter pairing %sCODE: %s", YELLOW, RED, NC);
